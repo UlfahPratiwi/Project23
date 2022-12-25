@@ -9,7 +9,7 @@
 
 4. Dalam dialog pewarnaan Topologi, pilih India-States sebagai lapisan Input. Simpan semua parameter lain ke default dan klik Jalankan.
 
-       Note :
+   Note :
 
 Algoritma pewarnaan topologi mengimplementasikan algoritma untuk mewarnai peta sehingga tidak ada poligon yang berdekatan memiliki warna yang sama. Ini adalah teknik kartografi yang berguna dan Teorema Empat Warna menyatakan bahwa 4 warna cukup untuk mencapai hasil ini. Ada versi teori graf dari torem ini yang disebut teorema Lima warna. Implementasi algoritma QGIS didasarkan pada grafik sehingga dalam praktiknya Anda akan melihat bahwa lapisan poligon kompleks seperti ini akan membutuhkan hingga 5 warna.
 
@@ -21,7 +21,7 @@ Algoritma pewarnaan topologi mengimplementasikan algoritma untuk mewarnai peta s
 
 8. Saat algoritme selesai diproses, Anda akan melihat 3 lapisan baru di panel Lapisan - Keluaran valid, Keluaran tidak valid, dan Keluaran kesalahan. Keluaran Error lapisan berisi lokasi dan deskripsi kesalahan geometri. Klik kanan dan pilih Buka Tabel Atribut.
 
-       Note :
+   Note :
 
 Dokumentasi QGIS memiliki artikel terperinci tentang Jenis pesan kesalahan dan artinya yang menjelaskan penyebab semua kesalahan.
 
